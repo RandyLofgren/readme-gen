@@ -53,7 +53,24 @@ inquirer
 
   ![License](https://img.shields.io/badge/license-${data.license.split(' ').join('')}-blue)
 
-    
+
+
+
+
+   ## Description ${data.description}
+
+   ## Installation ${data.installation}
+
+   ## Usage ${data.usage}
+
+   ##  Contributing ${data.contributing}
+
+   ## Tests ${data.tests}
+
+   ## License ${data.license}
+
+
+   
     
     
     
