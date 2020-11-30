@@ -53,29 +53,44 @@ inquirer
 
   ![License](https://img.shields.io/badge/license-${data.license.split(' ').join('')}-blue)
 
-   * [Description] (#Description) 
+   * [Description](#Description) 
 
-   * [Installation] (#Installation)
+   * [Installation](#Installation)
 
-   * [Usage] (#Usage)
+   * [Usage](#Usage)
 
-   * [Contributing] (#Contributing)
+   * [Contributing](#Contributing)
 
-   * [Tests] (#Tests)
+   * [Tests](#Tests)
 
-   * [License] (#License)
+   * [License](#License)
 
 
 
    ## Description ${data.description}
 
+
+
+
    ## Installation ${data.installation}
+
+
+
 
    ## Usage ${data.usage}
 
+
+
+
    ##  Contributing ${data.contributing}
 
+
+
+
    ## Tests ${data.tests}
+
+
+
 
    ## License ${data.license}
 
