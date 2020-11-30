@@ -67,32 +67,38 @@ inquirer
 
 
 
-   ## Description ${data.description}
+   ## Description
+    ${data.description}
 
 
 
 
-   ## Installation ${data.installation}
+   ## Installation
+    ${data.installation}
 
 
 
 
-   ## Usage ${data.usage}
+   ## Usage 
+   ${data.usage}
 
 
 
 
-   ##  Contributing ${data.contributing}
+   ##  Contributing
+    ${data.contributing}
 
 
 
 
-   ## Tests ${data.tests}
+   ## Tests
+    ${data.tests}
 
 
 
 
-   ## License ${data.license}
+   ## License
+    ${data.license}
 
 
    
