@@ -1,4 +1,4 @@
-# README
+# NewReadMe
     
 
 
@@ -21,31 +21,31 @@
 
 
    ## Description
-    This is a ReadMe Generator used to make professional quality READMEs based on User Inputs in the Command Line
+    Enter a description of the project
 
 
 
 
    ## Installation
-    This project requires the NPM Inquirer
+    Enter installation instructions for the project
 
 
 
 
    ## Usage 
-   The project can be used for easily creating ReadMes
+   Enter usage information for the project
 
 
 
 
    ##  Contributing
-    None
+    Enter contribution guidelines for the project
 
 
 
 
    ## Tests
-    None
+    Enter test instructions for the project
 
 
 
@@ -62,17 +62,6 @@
     My GitHub Profile is located at the link below.
     
   <a href='https://github.com/RandyLofgren' target='_blank'>RandyLofgren</a>
-
-
-
-  Link to the video
-
-  <a href='https://drive.google.com/file/d/1ssgmqywUHqQUXbvnc9Vd776lVDv6qzM7/view?usp=sharing' target='_blank'>Application Video</a>
-
-
-  ![ReadMeGenPic](https://user-images.githubusercontent.com/43276499/100687761-dfcaaf00-334e-11eb-8eca-28f543578448.png)
-
-     
 
    
 
