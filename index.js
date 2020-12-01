@@ -120,7 +120,7 @@ inquirer
 
     Please reach out to me at ${data.email} if you have any questions.
 
-    My GitHub Profile is 
+    My GitHub Profile is located at the link below.
     
   <a href='https://github.com/${data.user}' target='_blank'>${data.user}</a>
 
