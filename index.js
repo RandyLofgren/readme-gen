@@ -33,12 +33,24 @@ inquirer
       name: 'tests',
       message: 'Enter the test instructions for your project.',
     },
-    
+
     {
       type: 'list',
       message: 'What license would you like added to the ReadMe?',
       name: 'license',
-      choices: ['MIT License', 'Not MIT', 'Not Not MIT'],
+      choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License v3.0', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclpise Public License v3.0', 'GNU General Public License v2.0', 'GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unlicense'],
+    },
+
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What is your email?',
+    },
+
+    {
+      type: 'input',
+      name: 'user',
+      message: 'What is your GitHub User Name?',
     },
   ])
   .then((data) => {
@@ -47,7 +59,7 @@ inquirer
 
 
     const readMe =
-    `# ${data.title}
+      `# ${data.title}
     
 
 
@@ -64,6 +76,8 @@ inquirer
    * [Tests](#Tests)
 
    * [License](#License)
+
+   * [Questions](#Questions)
 
 
 
@@ -100,6 +114,17 @@ inquirer
    ## License
     ${data.license}
 
+
+
+   ## Questions
+
+    Please reach out to me at ${data.email} if you have any questions.
+
+    My GitHub Profile is 
+    
+  <a href= 'https://github.com/${data.user}' </a>
+
+   
 
    
     
