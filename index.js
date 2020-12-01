@@ -1,7 +1,7 @@
-const inquirer = require('inquirer');
+const inquirer = require('inquirer');  // We call on the NPM application inquirer here
 const fs = require('fs');
 
-inquirer
+inquirer  //Below are all the prompts listed
   .prompt([
     {
       type: 'input',
@@ -58,7 +58,7 @@ inquirer
 
 
 
-    const readMe =
+    const readMe =  //The template literal is engaged here to create the look we want while calling on the data obtained to fill in the responses
       `# ${data.title}
     
 
