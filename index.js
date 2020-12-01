@@ -122,7 +122,7 @@ inquirer
 
     My GitHub Profile is 
     
-  <a href= 'https://github.com/${data.user}' </a>
+  <a href='https://github.com/${data.user}' target='_blank'>${data.user}</a>
 
    
 
