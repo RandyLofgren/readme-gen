@@ -54,8 +54,8 @@ inquirer  //Below are all the prompts listed
     },
   ])
   .then((data) => {
-
-
+  
+      
 
 
     const readMe =  //The template literal is engaged here to create the look we want while calling on the data obtained to fill in the responses
@@ -94,7 +94,7 @@ inquirer  //Below are all the prompts listed
 
 
    ## Usage 
-   ${data.usage}
+    ${data.usage}
 
 
 

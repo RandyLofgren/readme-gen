@@ -33,7 +33,7 @@
 
 
    ## Usage 
-   The project can be used for easily creating ReadMes
+   The project can be used for easily creating a ReadMe---Type node index to run in the CLI
 
 
 
